@@ -1,37 +1,4 @@
-<?php
+--------- Git Hub ---------
 
-  $future_product = $this->getFutureProduct();
-  $url = $this->imagePath();
-
-  $objectManager = \Magento\Framework\App\ObjectManager::getInstance();
-  $listBlock = $objectManager->get('\Magento\Catalog\Block\Product\ListProduct');
-  
-
-?>
-<h2>Future Product</h2>
-  <div class="owl-carousel" id="futureproduct">
-    
-         <?php foreach ($future_product as $value){ ?>
-          
-          <div class="box">
-            <?php echo $block->getBlockHtml('formkey')?>
-               <a href="<?php echo $value->getUrl(); ?>">
-                 <img class="future-product" src="<?php echo $url.'catalog/product'.$value['thumbnail']; ?>" style="height: 200px; width: 100px;"/>
-                     
-               </a>
-               <?php
-               
-                $addToCartUrl =  $listBlock->getAddToCartUrl($value); 
-
-               ?>
-               
-             <form data-role="tocart-form" action="<?php echo $addToCartUrl; ?>" method="post">
-             <button type="submit" title="Add to Cart">
-              <span>Add to Cart</span>
-            </button>
-            </form>
-          </div>
-          
-         <?php } ?>
-    </div>
-
+1. Create Username and Email : git config --globel user.name yourname/email
+2. Check User and email: git config --globel user.yourname/email
