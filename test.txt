@@ -2,3 +2,13 @@
 
 1. Create Username and Email : git config --globel user.name yourname/email
 2. Check User and email: git config --globel user.yourname/email
+3. git initialized(current directory) : git init
+4. Create a new file : touch filename.xxx (like: touch contact.php)
+5. Check file status : git status
+6. push fil in commit area : git add -A
+7. pass commit message : git commit -m "your massage"
+8. To get your file back if someone edits or deletes your file without your permission : git checkout -f
+9. Check commit log : git log
+10. Filter commit log : git log -p -1
+11. How to check youe changes : git diff
+12.
