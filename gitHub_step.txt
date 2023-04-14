@@ -17,3 +17,4 @@
 15. Delete you file staging and working direcotory area : git rm --cached filename.php -f
 16. Create new Branch : git branch branch name
 17. Change Branch : git checkout branch name 
+18. Merge Branch : git merge branchname
