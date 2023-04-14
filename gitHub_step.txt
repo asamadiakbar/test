@@ -10,5 +10,10 @@
 8. To get your file back if someone edits or deletes your file without your permission : git checkout -f
 9. Check commit log : git log
 10. Filter commit log : git log -p -1
-11. How to check youe changes : git diff
-12.
+11. Check your changes(working file to staging area) : git diff
+12. Check your changes(working area to last commit) : dit diff --staged
+13. Push file without commit : git commit -a -m "Skipped Staging area."
+14. delete your file in staging area : git rm --cached filename.txt
+15. Delete you file staging and working direcotory area : git rm --cached filename.php -f
+16. Create new Branch : git branch branch name
+17. Change Branch : git checkout branch name 
