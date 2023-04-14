@@ -18,3 +18,4 @@
 16. Create new Branch : git branch branch name
 17. Change Branch : git checkout branch name 
 18. Merge Branch : git merge branchname
+19. Create new Branch and switch branch one command : git checkout -b branchname
