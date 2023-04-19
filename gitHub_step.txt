@@ -19,8 +19,6 @@
 17. Change Branch : git checkout branch name 
 18. Merge Branch : git merge branchname
 19. Add Remote : git remote add origin https://github.com/akbarwebzlabz/Test.git
-<<<<<<< HEAD
 20. push data : git push -u origin branchname. 
-=======
-20. push data : git push -u origin branchname 
->>>>>>> flash
+21. multiple account generate ssh key : ssh-keygen -t ed25519 -C "akbarhusainasamadi@gmail.com" 
+22. single account generate ssh key : ssh-keygen -t rsa -b 4096 -C "akbarhusainasamadi@gmail.com"
